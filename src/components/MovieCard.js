@@ -8,9 +8,7 @@ export default function MovieCard({ movie, isWatchlisted, toggleWatchlist }) {
 
   const getRatingClass = (rating) => {
     if (rating >= 8) return "rating-good";
-
     if (rating >= 5 && rating < 8) return "rating-ok";
-
     return "rating-bad";
   };
 
